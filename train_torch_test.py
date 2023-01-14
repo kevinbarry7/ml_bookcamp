@@ -2,7 +2,7 @@ import numpy as np
 import torch
 from torchvision import datasets, transforms
 from torch import nn, optim
-from main import create_model
+from torch_test import create_model
 
 def train(model, train_loader, cost, optimizer, epoch):
     model.train()
